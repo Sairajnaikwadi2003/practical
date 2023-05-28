@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page" id="page1">
+        <div data-role="header">
+            <h1>First page</h1>
+        </div>
+        <form >
+            <h2>Text Input Eample</h2>
+            <label >Text input</label>
+            <input type="text" data-clear-btn="False">
+            <label >Search Input</label>
+            <input type="search">
+            <label >Number Input</label>
+            <input type="number" data-clear-btn="False">
+            <label >Email Input</label>
+            <input type="email" data-clear-btn="False">
+            <label >Password input</label>
+            <input type="password" data-clear-btn="False">
+            <label >file input</label>
+            <input type="file" data-clear-btn="False">
+            <label >textarea</label>
+            <textarea type="textarea" id="txt"></textarea>
+        </form>
+    <div data-role="footer">
+        <h3>Click the follwing link For next page</h3>
+    <a href="#page2" target="_self">Page2</a><br>
+    </div>
+</div>
+    <div data-role="page" id="page2">
+        <div data-role="header">
+           <br> <h1>Welcome to  seconnd page</h1>
+        <a href="#page1" data-icon="arrow-1" class="ui-btn-left">Back</a>
+        </div>
+         <form >
+            <h2>Text Input Eample</h2>
+            <label >Text input</label>
+            <input type="text" data-clear-btn="False">
+            <label >Search Input</label>
+            <input type="search">
+            <label >Number Input</label>
+            <input type="number" data-clear-btn="False">
+            <label >Email Input</label>
+            <input type="email" data-clear-btn="False">
+            <label >Password input</label>
+            <input type="password" data-clear-btn="False">
+            <label >file input</label>
+            <input type="file" data-clear-btn="False">
+            <label >textarea</label>
+            <textarea type="textarea" id="txt"></textarea>
+        </form>
+        <div data-role="footer">
+            <h4>Contact us +9999999999</h4>
+        </div>
+    </div>
+</body>
+</html>
